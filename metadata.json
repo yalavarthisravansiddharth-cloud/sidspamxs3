@@ -1,0 +1,6 @@
+{
+  "name": "SpamShield — Spam Training Simulator",
+  "description": "Learn to Spot Spam Before It Tricks You. Interactive cybersecurity training simulator with safe simulated emails, SMS scams, Hard mode inspection, and ShieldAI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

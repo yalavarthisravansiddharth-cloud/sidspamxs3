@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #070d18;
+    --navy-900: #0a1120;
+    --navy-800: #0f1c32;
+    --navy-700: #172a4d;
+    --cyan-accent: #06b6d4;
+    --blue-accent: #3b82f6;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #070d18;
+    color: #e2e8f0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace, ui-monospace;
+  }
+}
+
+/* Custom cyber scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a1120;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Cyber glow effects */
+.cyber-glow-cyan {
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.25);
+}
+
+.cyber-glow-blue {
+  box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.25);
+}
+
+.cyber-glow-safe {
+  box-shadow: 0 0 25px -5px rgba(34, 197, 94, 0.25);
+}
+
+.cyber-glow-warning {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.25);
+}
+
+.cyber-glow-danger {
+  box-shadow: 0 0 25px -5px rgba(239, 68, 68, 0.25);
+}
+
+/* Cyber grid background */
+.cyber-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
